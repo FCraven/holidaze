@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="">
       <Canvas>
-        <mesh>
+        <mesh onClick={(()=>console.log('clicked!'))}>
           <ambientLight intensity={0.1}/>
           <directionalLight color="red"
                             position={[0,0,5]}/>
